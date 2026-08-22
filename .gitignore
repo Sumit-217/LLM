@@ -13,6 +13,7 @@ __pycache__/
 *.egg-info/
 build/
 dist/
+wheels/
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/

@@ -1,6 +1,6 @@
 # Python-generated files
 __pycache__/
-*.py[oc]
+*.py[cod]
 build/
 dist/
 wheels/
@@ -13,6 +13,10 @@ htmlcov/
 
 # Virtual environments
 .venv/
+venv/
+
+# Local Python version manager files
+.python-version
 
 # Environment files and secrets
 .env

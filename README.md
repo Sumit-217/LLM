@@ -14,6 +14,7 @@ This repository contains my Week 1 learning projects while working with Python, 
 | Day 6 | Prompt engineering and classification | `prompt.py`        |
 | Day 7 | Tool-using agent / shopping assistant | `react.py`         |
 | Day 8 | Resume-to-job matching with Groq      | `chain.py`         |
+| Day 9 | Streaming LLM responses               | `streaming.py`     |
 
 ## Setup
 
@@ -32,13 +33,13 @@ GROQ_API_KEY=your_api_key_here
 Run a script from inside the day folder:
 
 ```powershell
-uv run python .\chain.py
+uv run python .\streaming.py
 ```
 
 Never commit `.env` or expose your API key. These files are excluded by the local `.gitignore` in each day folder.
 
 ## Notes
 
-- This week focuses on learning how LLMs can be used for simple workflows, extraction, matching, and tool-based reasoning.
+- This week focuses on learning how LLMs can be used for simple workflows, extraction, matching, tool-based reasoning, and streaming responses.
 - The structure is intentionally modular so each day can be explored independently.
 - The root project is a learning log, while each day folder contains its own isolated setup and examples.
